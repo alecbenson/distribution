@@ -227,7 +227,7 @@ type RouteDescriptor struct {
 	// should match.
 	Path string
 
-	// Entity should be a short, human-readalbe description of the object
+	// Entity should be a short, human-readable description of the object
 	// targeted by the endpoint.
 	Entity string
 
@@ -294,7 +294,7 @@ type RequestDescriptor struct {
 // ResponseDescriptor describes the components of an API response.
 type ResponseDescriptor struct {
 	// Name provides a short identifier for the response, usable as a title or
-	// to provide quick context for the particalar response.
+	// to provide quick context for the particular response.
 	Name string
 
 	// Description should provide a brief overview of the role of the
@@ -342,7 +342,7 @@ type ParameterDescriptor struct {
 	// Required means the field is required when set.
 	Required bool
 
-	// Format is a specifying the string format accepted by this parameter.
+	// Format is specifies the string format accepted by this parameter.
 	Format string
 
 	// Regexp is a compiled regular expression that can be used to validate
